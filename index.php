@@ -5,13 +5,13 @@
 	$nama = "Zuliatun Istiqomah";
 	$umur = 20;
 
-	echo"Nama saya <strong>$nama</strong>, saya berusia $umur tahun, hehe<br>";
+	echo"Nama saya <strong>$nama</strong>, saya berusia $umur tahun.<br>";
 
-	$namaAdik = "umi khanifah";
-	$umurAdik = "17";
+	$namaAdik = "Umi Khanifah";
+	$umurAdik = 17 ;
 
 	echo"Nama adik saya <strong>$namaAdik</strong>, adik saya berusia $umurAdik tahun.<br>";
 
 	$selisihumur = $umur -$umurAdik;
-	echo "Selisih usia saya dan adik sya adalah $selisihumur tahun."
+	echo "Selisih usia saya dan adik saya adalah $selisihumur tahun."
 ?>
