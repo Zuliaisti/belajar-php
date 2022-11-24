@@ -15,7 +15,7 @@ $sql = "SELECT * FROM mahasiswa";
 
 // 4. tampilkan data, cek apakah query bisa dijalankan
 $mahasiswa = [];
-if $result = (mysqli_query($con,$sql)){
+if ($result = mysqli_query($con,$sql)){
     //tampilkan satu persatu
     while($row = mysqli_fetch_assoc($result)){
         $mahasiswa[] = $row;

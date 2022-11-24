@@ -5,7 +5,7 @@ if(isset($_GET['id'])){
     $id = $_GET['id'];
 
     // Buat koneksi dengan MySQL
-    $con = mysqli_connect("localhost","root","","seal_fakultas");
+    $con = mysqli_connect("localhost","root","","fakultas");
 
     // Check connection
     if (mysqli_connect_errno()) {
